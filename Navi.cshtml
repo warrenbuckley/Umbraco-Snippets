@@ -1,0 +1,12 @@
+@{
+  //NOTE: This is not a working Razor snippet - just a test snippet
+  var root;
+}
+<ul>
+  @foreach(var node in root.children)
+  {
+    <li>
+      <a href="@node.Url">@node.Name</a>
+    </li>
+  }
+</ul>
